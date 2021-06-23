@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>SkVi</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/loginstyle.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="../assets/logo.png" alt="">
+
+            </div>
+            <ul class="nav-area">
+                <li><a href="../html/front_page.html">Home</a></li>
+                <li><a href="../html/service.html">Services</a></li>
+                <li><a href="../php/courses.php">Courses</a></li>
+                <li><a href="../myAccount/login.html">Login</a></li>
+                <li><a href="../html/about.html">About</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="login">
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+                <img src="../assets/icon.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" id="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" id="psw" required>
+
+
+                <button type="submit">Login</button>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f100">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+                <span class="psw">Do you wanna <a href="../myAccount/register.html">register?</a></span>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+
+
+
+
+</html>
